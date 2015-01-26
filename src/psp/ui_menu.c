@@ -8,9 +8,9 @@
 
 #include "emumain.h"
 
-#define MENU_BLANK	{ LF, }
-#define MENU_RETURN	{ RETURN_TO_MAIN_MENU, }
-#define MENU_END	{ EOM, }
+#define MENU_BLANK	{ '\n' }
+#define MENU_RETURN	{ RETURN_TO_MAIN_MENU }
+#define MENU_END	{ 0 }
 
 //>>>>>>>>>>>>>>>>>DAVEX: VARIABLES GLOBALES DE CHEATS /////////////
 //variables globales de cheats

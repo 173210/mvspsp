@@ -578,13 +578,13 @@ enum
 	mb.mes[count].r = &ui_palette[UI_PAL_NORMAL].r;		\
 	mb.mes[count].g = &ui_palette[UI_PAL_NORMAL].g;		\
 	mb.mes[count].b = &ui_palette[UI_PAL_NORMAL].b;		\
-	mb.mes[count++].text = TEXT(LF);
+	mb.mes[count++].text = "\n";
 
 #define MB_END											\
 	mb.mes[count].r = &ui_palette[UI_PAL_NORMAL].r;		\
 	mb.mes[count].g = &ui_palette[UI_PAL_NORMAL].g;		\
 	mb.mes[count].b = &ui_palette[UI_PAL_NORMAL].b;		\
-	mb.mes[count].text = TEXT(EOM);
+	mb.mes[count].text = "0";
 
 
 typedef struct message_t
@@ -891,7 +891,7 @@ int messagebox(int number)
 	help.mes[count].r = &ui_palette[UI_PAL_NORMAL].r;		\
 	help.mes[count].g = &ui_palette[UI_PAL_NORMAL].g;		\
 	help.mes[count].b = &ui_palette[UI_PAL_NORMAL].b;		\
-	help.mes[count].text2 = TEXT(EOM);
+	help.mes[count].text2 = "0";
 
 
 typedef struct help_message_t

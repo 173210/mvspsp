@@ -14,9 +14,6 @@ const char *ui_text[UI_TEXT_MAX];
 
 static const char *text_ENGLISH[UI_TEXT_MAX] =
 {
-		"\0",
-		"\n",
-
 		/* psp/filer.c */
 		"Please wait...",
 		"Could not open zipname.%s",
@@ -553,9 +550,6 @@ static const char *text_ENGLISH[UI_TEXT_MAX] =
 };
 static const char *text_JAPANESE[UI_TEXT_MAX] =
 {
-		"\0",
-		"\n",
-
 		/* psp/filer.c */
 		"しばらくお待ちください。",
 		"zipname.%sをオープンできません。",
@@ -1092,9 +1086,6 @@ static const char *text_JAPANESE[UI_TEXT_MAX] =
 };
 static const char *text_SPANISH[UI_TEXT_MAX] =
 {
-		"\0",
-		"\n",
-
 		/* psp/filer.c */
 		"Por favor espere...",
 		"No se pudo abrir zipname.%s",

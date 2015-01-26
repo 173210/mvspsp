@@ -11,9 +11,6 @@
 
 enum
 {
-	EOM = 0,
-	LF,
-
 	/* psp/filer.c */
 	PLEASE_WAIT,
 	COULD_NOT_OPEN_ZIPNAME_DAT,
